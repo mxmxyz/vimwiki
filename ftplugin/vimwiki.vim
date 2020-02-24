@@ -484,8 +484,8 @@ if !hasmapto('<Plug>VimwikiListToggle', 'i')
 endif
 inoremap <silent><script><buffer> <Plug>VimwikiListToggle <Esc>:VimwikiListToggle<CR>
 
-nnoremap <silent> <buffer> o :<C-U>call vimwiki#lst#kbd_o()<CR>
-nnoremap <silent> <buffer> O :<C-U>call vimwiki#lst#kbd_O()<CR>
+nnoremap <silent> <buffer> y :<C-U>call vimwiki#lst#kbd_o()<CR>
+nnoremap <silent> <buffer> Y :<C-U>call vimwiki#lst#kbd_O()<CR>
 
 if !hasmapto('<Plug>VimwikiRenumberList')
   nmap <silent><buffer> glr <Plug>VimwikiRenumberList
